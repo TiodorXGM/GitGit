@@ -13,6 +13,9 @@ namespace GitGit
         {
             Program program = new Program();
 
+            string will;
+            int gold;
+
             Console.WriteLine("Введите число:");
             int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите в какую степень нужно возвести число:");
