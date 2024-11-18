@@ -33,6 +33,11 @@ namespace GitGit
         {
             return (int)Math.Pow(number, exponent); 
         }
+
+        static int Cube(int number)
+        {
+            return number * number * number;
+        }
     }
 }
 
